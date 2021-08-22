@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página que contém uma tabela">
+    <meta name="keywords" content="HTML5, CSS, JavaScript">
+    <meta name="author" content="Vinicius de Souza Cestari">
+    <meta http-equiv="refresh" content="60">
+    <link rel="stylesheet" href="style-table/style.css">
+    <title>Introdução à Tabelas no HTML</title>
+</head>
+
+<body>
+    <table>
+        <!-- Define uma tabela -->
+        <tr>
+            <!-- Define uma linha -->
+            <th>Produtos</th>
+            <!-- Define uma coluna título -->
+            <th>Preço</th>
+            <th>Estoque</th>
+        </tr>
+        <tr>
+            <td>RTX 3080TI</td>
+            <!-- Define uma coluna -->
+            <td>R$ 1,00</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>RTX 3080</td>
+            <td>R$ 0,65</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>RTX 3070</td>
+            <td>R$ 0,40</td>
+            <td>8</td>
+        </tr>
+    </table>
+    <br><br><br><br><br>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th colspan="2">Telefone</th>
+            <!-- Define o número de colunas que irá mesclar -->
+        </tr>
+        <tr>
+            <td>Yudi</td>
+            <td>(11) 4002-8922</td>
+            <td>(11) 9 6330-7211</td>
+        </tr>
+        <hr>
+    </table>
+    <br><br><br><br><br>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Telefone</th>
+        </tr>
+        <tr>
+            <td>Vinicius</td>
+            <td rowspan="2">(11) 9 6330-7211</td>
+            <!-- Define o número de linhas que irá mesclar -->
+        </tr>
+        <tr>
+            <td>Lais</td>
+        </tr>
+    </table>
+</body>
+
+</html>
